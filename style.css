@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
 }
+
 .cv-container {
     max-width: 600px;
     margin: 0 auto;
@@ -17,6 +18,10 @@ body {
 }
 
 .cv-header img {
+    background-image: url(fotoğraf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -26,24 +31,15 @@ body {
 
 .cv-info {
     margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;  
+}
+.cv-info li{
+    list-style-type: none;
 }
 
 .cv-info p {
     margin: 5px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .icons {
     list-style-type: none;
@@ -52,6 +48,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 .icons i {
     margin: 3px;
     cursor: pointer;
@@ -60,15 +57,6 @@ body {
 .icons i:hover {
     animation: imlecAnimasyon 0.5s infinite;
 }
-
-
-
-
-
-
-
-
-
 
 footer {
     background-color: rgb(0, 0, 0);
