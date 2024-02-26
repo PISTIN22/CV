@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.cv-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv-header {
+    text-align: center;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.cv-header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.cv-info {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cv-info p {
+    margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icons {
+    list-style-type: none;
+    padding: 4px;
+    margin: 3px 0;
+    display: flex;
+    align-items: center;
+}
+.icons i {
+    margin: 3px;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    animation: imlecAnimasyon 0.5s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes imlecAnimasyon {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    section {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .block-container {
+        background-color: #111111;
+    }
+
+    footer {
+        background: #ffffff;
+    }
+
+    footer p {
+        color: black;
+    }
+
+    .input-container button {
+        border: 1px solid #444444;
+        background-color: rgb(48, 55, 69);
+        color: white;
+    }
+
+    .input-container input {
+        border: 1px solid #444444;
+        background-color: #444444;
+        color: white;
+    }
+
+    .drag-enter {
+        border-color: white;
+    }
+
+    .item-list {
+        border-color: white;
+    }
+}
