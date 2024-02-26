@@ -17,11 +17,15 @@ body {
     user-select: none;
 }
 
-.cv-header img {
+.foto {
+
     background-image: url(fotoğraf.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.cv-header img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -31,9 +35,10 @@ body {
 
 .cv-info {
     margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;  
+    border-bottom: 1px solid #ccc;
 }
-.cv-info li{
+
+.cv-info li {
     list-style-type: none;
 }
 
