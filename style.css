@@ -19,19 +19,26 @@ body {
 
 .foto {
 
-    background-image: url(fotoğraf.jpg);
+    background-image: url(photos/fotoğraf.jpg);
+    display: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.cv-header img {
-    border-radius: 50%;
+    border-radius: 200%;
     width: 150px;
     height: 150px;
     object-fit: cover;
     margin-bottom: 10px;
 }
+.unrealengine {
+    border: none;
+    background-image: url(photos/icons/icons8-unreal-engine-120.png);
+    background-size: cover;
+    background-position: center;
+    width: 16px;
+    height: 16px;
+}
+
 
 .cv-info {
     margin-bottom: 20px;
