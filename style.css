@@ -47,6 +47,8 @@ body {
 
 .cv-info li {
     list-style-type: none;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .cv-info p {
