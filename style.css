@@ -54,6 +54,22 @@ body {
     width: 16px;
     height: 16px;
 }
+.photoshop {
+    border: none;
+    background-image: url(photos/icons/photoshop.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 16px;
+    height: 16px;
+}
+.coreldraw{
+    border: none;
+    background-image: url(photos/icons/coreldraw.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 16px;
+    height: 16px;
+}
 
 
 .cv-info {
